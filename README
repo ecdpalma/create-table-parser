@@ -1,0 +1,8 @@
+PEG.js script to retrieve the table names, columns names and types from an input with a series of CREATE TABLE statements, according to the SQLite grammar.
+
+Only what solves my specific problem has been put in the script. The CREATE TABLE grammar is not fully implemented (e.g. reserved words are all expected to be uppercase).
+
+The SQLite grammar was taken from SQLJet: http://svn.sqljet.com/repos/sqljet/trunk/sqljet/src/main/antlr/org/tmatesoft/sqljet/core/internal/lang/Sql.g
+
+The pegjs script has been built and tested only in the PEG.js online tool: http://pegjs.majda.cz/online
+
