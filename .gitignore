@@ -1,0 +1,10 @@
+tmp/**
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*~.nib
+Thumbs.db
+Desktop.ini
+*~
+\#*\#
